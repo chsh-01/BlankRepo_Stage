@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T09:44:49.708Z",
+  "generatedAt": "2026-10-15T10:11:07.387Z",
   "repo": {
     "connectorId": 547,
     "repoSlug": "chsh-01/BlankRepo_Stage",
@@ -19,6 +19,278 @@
       "kind": "folder",
       "children": [
         {
+          "assetId": 46557,
+          "displayId": "FD-17",
+          "name": "Account Access and Registration",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 46558,
+              "displayId": "TC-17",
+              "name": "Open and close account panel without losing catalog or cart state",
+              "kind": "test-case",
+              "repoPath": "08102026/Account Access and Registration/TC-17-Open-and-close-account-panel-without-losing-catalog-or-cart-state.spec.ts"
+            },
+            {
+              "assetId": 46559,
+              "displayId": "TC-18",
+              "name": "Reject invalid credentials and handle duplicate registration email",
+              "kind": "test-case",
+              "repoPath": "08102026/Account Access and Registration/TC-18-Reject-invalid-credentials-and-handle-duplicate-registration-email.spec.ts"
+            },
+            {
+              "assetId": 46560,
+              "displayId": "TC-19",
+              "name": "Sign in with each available demo identity and preserve session access",
+              "kind": "test-case",
+              "repoPath": "08102026/Account Access and Registration/TC-19-Sign-in-with-each-available-demo-identity-and-preserve-session-access.spec.ts"
+            },
+            {
+              "assetId": 46561,
+              "displayId": "TC-20",
+              "name": "Switch between sign-in and registration modes",
+              "kind": "test-case",
+              "repoPath": "08102026/Account Access and Registration/TC-20-Switch-between-sign-in-and-registration-modes.spec.ts"
+            },
+            {
+              "assetId": 46562,
+              "displayId": "TC-21",
+              "name": "Validate required fields for sign-in and registration",
+              "kind": "test-case",
+              "repoPath": "08102026/Account Access and Registration/TC-21-Validate-required-fields-for-sign-in-and-registration.spec.ts"
+            }
+          ]
+        },
+        {
+          "assetId": 46563,
+          "displayId": "FD-18",
+          "name": "Checkout Address and Validation",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 46564,
+              "displayId": "TC-22",
+              "name": "Display accurate order summary on address stage",
+              "kind": "test-case",
+              "repoPath": "08102026/Checkout Address and Validation/TC-22-Display-accurate-order-summary-on-address-stage.spec.ts"
+            },
+            {
+              "assetId": 46565,
+              "displayId": "TC-23",
+              "name": "Reject invalid email at checkout address stage",
+              "kind": "test-case",
+              "repoPath": "08102026/Checkout Address and Validation/TC-23-Reject-invalid-email-at-checkout-address-stage.spec.ts"
+            },
+            {
+              "assetId": 46566,
+              "displayId": "TC-24",
+              "name": "Reject invalid ZIP code at checkout address stage",
+              "kind": "test-case",
+              "repoPath": "08102026/Checkout Address and Validation/TC-24-Reject-invalid-ZIP-code-at-checkout-address-stage.spec.ts"
+            },
+            {
+              "assetId": 46567,
+              "displayId": "TC-25",
+              "name": "Show required-field errors for empty checkout address",
+              "kind": "test-case",
+              "repoPath": "08102026/Checkout Address and Validation/TC-25-Show-required-field-errors-for-empty-checkout-address.spec.ts"
+            },
+            {
+              "assetId": 46568,
+              "displayId": "TC-26",
+              "name": "Submit valid guest delivery address",
+              "kind": "test-case",
+              "repoPath": "08102026/Checkout Address and Validation/TC-26-Submit-valid-guest-delivery-address.spec.ts"
+            }
+          ]
+        },
+        {
+          "assetId": 46569,
+          "displayId": "FD-19",
+          "name": "Checkout Payment and Delivery",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 46570,
+              "displayId": "TC-27",
+              "name": "Default demo card and delivery date persist through checkout",
+              "kind": "test-case",
+              "repoPath": "08102026/Checkout Payment and Delivery/TC-27-Default-demo-card-and-delivery-date-persist-through-checkout.spec.ts"
+            },
+            {
+              "assetId": 46571,
+              "displayId": "TC-28",
+              "name": "Incomplete delivery information blocks progression to payment",
+              "kind": "test-case",
+              "repoPath": "08102026/Checkout Payment and Delivery/TC-28-Incomplete-delivery-information-blocks-progression-to-payment.spec.ts"
+            },
+            {
+              "assetId": 46572,
+              "displayId": "TC-29",
+              "name": "PayPal demo choice remains frontend-only through order confirmation",
+              "kind": "test-case",
+              "repoPath": "08102026/Checkout Payment and Delivery/TC-29-PayPal-demo-choice-remains-frontend-only-through-order-confirmation.spec.ts"
+            }
+          ]
+        },
+        {
+          "assetId": 46573,
+          "displayId": "FD-20",
+          "name": "Checkout Review and Simulated Order Placement",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 46574,
+              "displayId": "TC-30",
+              "name": "Checkout blocks review and placement for invalid or missing address data",
+              "kind": "test-case",
+              "repoPath": "08102026/Checkout Review and Simulated Order Placement/TC-30-Checkout-blocks-review-and-placement-for-invalid-or-missing-address-data.spec.ts"
+            },
+            {
+              "assetId": 46575,
+              "displayId": "TC-31",
+              "name": "Place order creates simulated confirmation with an order reference",
+              "kind": "test-case",
+              "repoPath": "08102026/Checkout Review and Simulated Order Placement/TC-31-Place-order-creates-simulated-confirmation-with-an-order-reference.spec.ts"
+            },
+            {
+              "assetId": 46576,
+              "displayId": "TC-32",
+              "name": "Review applies free shipping at the $50 threshold",
+              "kind": "test-case",
+              "repoPath": "08102026/Checkout Review and Simulated Order Placement/TC-32-Review-applies-free-shipping-at-the-$50-threshold.spec.ts"
+            },
+            {
+              "assetId": 46577,
+              "displayId": "TC-33",
+              "name": "Review shows valid delivery, payment, line items, and under-threshold totals",
+              "kind": "test-case",
+              "repoPath": "08102026/Checkout Review and Simulated Order Placement/TC-33-Review-shows-valid-delivery,-payment,-line-items,-and-under-threshold-totals.spec.ts"
+            },
+            {
+              "assetId": 46578,
+              "displayId": "TC-34",
+              "name": "Review totals remain consistent with cart line items and quantities",
+              "kind": "test-case",
+              "repoPath": "08102026/Checkout Review and Simulated Order Placement/TC-34-Review-totals-remain-consistent-with-cart-line-items-and-quantities.spec.ts"
+            },
+            {
+              "assetId": 46579,
+              "displayId": "TC-35",
+              "name": "Selected payment method and delivery date persist into review",
+              "kind": "test-case",
+              "repoPath": "08102026/Checkout Review and Simulated Order Placement/TC-35-Selected-payment-method-and-delivery-date-persist-into-review.spec.ts"
+            }
+          ]
+        },
+        {
+          "assetId": 46580,
+          "displayId": "FD-21",
+          "name": "Global Navigation and Storefront Shell",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 46581,
+              "displayId": "TC-36",
+              "name": "Navigate primary catalog sections and view storefront benefits",
+              "kind": "test-case",
+              "repoPath": "08102026/Global Navigation and Storefront Shell/TC-36-Navigate-primary-catalog-sections-and-view-storefront-benefits.spec.ts"
+            },
+            {
+              "assetId": 46582,
+              "displayId": "TC-37",
+              "name": "Open and close cart and account panels without losing storefront state",
+              "kind": "test-case",
+              "repoPath": "08102026/Global Navigation and Storefront Shell/TC-37-Open-and-close-cart-and-account-panels-without-losing-storefront-state.spec.ts"
+            },
+            {
+              "assetId": 46583,
+              "displayId": "TC-38",
+              "name": "Search for a visible product from the storefront header",
+              "kind": "test-case",
+              "repoPath": "08102026/Global Navigation and Storefront Shell/TC-38-Search-for-a-visible-product-from-the-storefront-header.spec.ts"
+            },
+            {
+              "assetId": 46584,
+              "displayId": "TC-39",
+              "name": "Show the no-match state for an unmatched header search",
+              "kind": "test-case",
+              "repoPath": "08102026/Global Navigation and Storefront Shell/TC-39-Show-the-no-match-state-for-an-unmatched-header-search.spec.ts"
+            },
+            {
+              "assetId": 46585,
+              "displayId": "TC-40",
+              "name": "Use footer support links and recover with Back navigation",
+              "kind": "test-case",
+              "repoPath": "08102026/Global Navigation and Storefront Shell/TC-40-Use-footer-support-links-and-recover-with-Back-navigation.spec.ts"
+            }
+          ]
+        },
+        {
+          "assetId": 46586,
+          "displayId": "FD-22",
+          "name": "Product Catalog Discovery",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 46587,
+              "displayId": "TC-41",
+              "name": "Display the no-match search state",
+              "kind": "test-case",
+              "repoPath": "08102026/Product Catalog Discovery/TC-41-Display-the-no-match-search-state.spec.ts"
+            },
+            {
+              "assetId": 46588,
+              "displayId": "TC-42",
+              "name": "Filter products by pet category",
+              "kind": "test-case",
+              "repoPath": "08102026/Product Catalog Discovery/TC-42-Filter-products-by-pet-category.spec.ts"
+            },
+            {
+              "assetId": 46589,
+              "displayId": "TC-43",
+              "name": "Load the default product catalog",
+              "kind": "test-case",
+              "repoPath": "08102026/Product Catalog Discovery/TC-43-Load-the-default-product-catalog.spec.ts"
+            },
+            {
+              "assetId": 46590,
+              "displayId": "TC-44",
+              "name": "Navigate to New and Deals catalog sections",
+              "kind": "test-case",
+              "repoPath": "08102026/Product Catalog Discovery/TC-44-Navigate-to-New-and-Deals-catalog-sections.spec.ts"
+            },
+            {
+              "assetId": 46591,
+              "displayId": "TC-45",
+              "name": "Open and dismiss product details",
+              "kind": "test-case",
+              "repoPath": "08102026/Product Catalog Discovery/TC-45-Open-and-dismiss-product-details.spec.ts"
+            },
+            {
+              "assetId": 46592,
+              "displayId": "TC-46",
+              "name": "Search for a matching product",
+              "kind": "test-case",
+              "repoPath": "08102026/Product Catalog Discovery/TC-46-Search-for-a-matching-product.spec.ts"
+            },
+            {
+              "assetId": 46593,
+              "displayId": "TC-47",
+              "name": "Sort products by available price options",
+              "kind": "test-case",
+              "repoPath": "08102026/Product Catalog Discovery/TC-47-Sort-products-by-available-price-options.spec.ts"
+            },
+            {
+              "assetId": 46594,
+              "displayId": "TC-48",
+              "name": "Verify product card content",
+              "kind": "test-case",
+              "repoPath": "08102026/Product Catalog Discovery/TC-48-Verify-product-card-content.spec.ts"
+            }
+          ]
+        },
+        {
           "assetId": 46595,
           "displayId": "FD-23",
           "name": "Product Details and Cart Addition",
@@ -30,13 +302,663 @@
               "name": "Add one product from the details dialog",
               "kind": "test-case",
               "repoPath": "08102026/Product Details and Cart Addition/TC-50-Add-one-product-from-the-details-dialog.spec.ts"
+            },
+            {
+              "assetId": 46598,
+              "displayId": "TC-51",
+              "name": "Open and dismiss product details without changing the cart",
+              "kind": "test-case",
+              "repoPath": "08102026/Product Details and Cart Addition/TC-51-Open-and-dismiss-product-details-without-changing-the-cart.spec.ts"
+            },
+            {
+              "assetId": 46599,
+              "displayId": "TC-52",
+              "name": "Preserve existing cart contents when dismissing product details",
+              "kind": "test-case",
+              "repoPath": "08102026/Product Details and Cart Addition/TC-52-Preserve-existing-cart-contents-when-dismissing-product-details.spec.ts"
+            },
+            {
+              "assetId": 46600,
+              "displayId": "TC-53",
+              "name": "Prevent product details and cart addition for a no-match search",
+              "kind": "test-case",
+              "repoPath": "08102026/Product Details and Cart Addition/TC-53-Prevent-product-details-and-cart-addition-for-a-no-match-search.spec.ts"
+            }
+          ]
+        },
+        {
+          "assetId": 46601,
+          "displayId": "FD-24",
+          "name": "Saved Address Management",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 46602,
+              "displayId": "TC-54",
+              "name": "Confirm saved-address behavior matches the FAQ",
+              "kind": "test-case",
+              "repoPath": "08102026/Saved Address Management/TC-54-Confirm-saved-address-behavior-matches-the-FAQ.spec.ts"
+            },
+            {
+              "assetId": 46603,
+              "displayId": "TC-55",
+              "name": "Edit saved address and retain changes in the session",
+              "kind": "test-case",
+              "repoPath": "08102026/Saved Address Management/TC-55-Edit-saved-address-and-retain-changes-in-the-session.spec.ts"
+            },
+            {
+              "assetId": 46604,
+              "displayId": "TC-56",
+              "name": "Prevent unauthenticated access to saved address editing",
+              "kind": "test-case",
+              "repoPath": "08102026/Saved Address Management/TC-56-Prevent-unauthenticated-access-to-saved-address-editing.spec.ts"
+            }
+          ]
+        },
+        {
+          "assetId": 46605,
+          "displayId": "FD-25",
+          "name": "Shopping Cart Management",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 46606,
+              "displayId": "TC-57",
+              "name": "Apply free-shipping threshold messaging and charges",
+              "kind": "test-case",
+              "repoPath": "08102026/Shopping Cart Management/TC-57-Apply-free-shipping-threshold-messaging-and-charges.spec.ts"
+            },
+            {
+              "assetId": 46607,
+              "displayId": "TC-58",
+              "name": "Enable guest checkout for a non-empty cart",
+              "kind": "test-case",
+              "repoPath": "08102026/Shopping Cart Management/TC-58-Enable-guest-checkout-for-a-non-empty-cart.spec.ts"
+            },
+            {
+              "assetId": 46608,
+              "displayId": "TC-59",
+              "name": "Handle an empty cart and disable checkout",
+              "kind": "test-case",
+              "repoPath": "08102026/Shopping Cart Management/TC-59-Handle-an-empty-cart-and-disable-checkout.spec.ts"
+            },
+            {
+              "assetId": 46609,
+              "displayId": "TC-60",
+              "name": "List cart items without duplicate product lines",
+              "kind": "test-case",
+              "repoPath": "08102026/Shopping Cart Management/TC-60-List-cart-items-without-duplicate-product-lines.spec.ts"
+            },
+            {
+              "assetId": 46610,
+              "displayId": "TC-61",
+              "name": "Persist cart contents across storefront, support, and checkout views",
+              "kind": "test-case",
+              "repoPath": "08102026/Shopping Cart Management/TC-61-Persist-cart-contents-across-storefront,-support,-and-checkout-views.spec.ts"
+            },
+            {
+              "assetId": 46611,
+              "displayId": "TC-62",
+              "name": "Preserve cart state when closing product details",
+              "kind": "test-case",
+              "repoPath": "08102026/Shopping Cart Management/TC-62-Preserve-cart-state-when-closing-product-details.spec.ts"
+            },
+            {
+              "assetId": 46612,
+              "displayId": "TC-63",
+              "name": "Update quantity controls and cart totals",
+              "kind": "test-case",
+              "repoPath": "08102026/Shopping Cart Management/TC-63-Update-quantity-controls-and-cart-totals.spec.ts"
+            }
+          ]
+        },
+        {
+          "assetId": 46613,
+          "displayId": "FD-26",
+          "name": "Support FAQ and Returns Lookup",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 46614,
+              "displayId": "TC-64",
+              "name": "Display details and return eligibility for a valid example order",
+              "kind": "test-case",
+              "repoPath": "08102026/Support FAQ and Returns Lookup/TC-64-Display-details-and-return-eligibility-for-a-valid-example-order.spec.ts"
+            },
+            {
+              "assetId": 46615,
+              "displayId": "TC-65",
+              "name": "Mark an order outside the 30-day window as ineligible",
+              "kind": "test-case",
+              "repoPath": "08102026/Support FAQ and Returns Lookup/TC-65-Mark-an-order-outside-the-30-day-window-as-ineligible.spec.ts"
+            },
+            {
+              "assetId": 46616,
+              "displayId": "TC-66",
+              "name": "Reject blank, malformed, and unknown return order numbers",
+              "kind": "test-case",
+              "repoPath": "08102026/Support FAQ and Returns Lookup/TC-66-Reject-blank,-malformed,-and-unknown-return-order-numbers.spec.ts"
+            },
+            {
+              "assetId": 46617,
+              "displayId": "TC-67",
+              "name": "Verify FAQ delivery, shipping, address, and payment guidance",
+              "kind": "test-case",
+              "repoPath": "08102026/Support FAQ and Returns Lookup/TC-67-Verify-FAQ-delivery,-shipping,-address,-and-payment-guidance.spec.ts"
             }
           ]
         }
       ]
+    },
+    {
+      "assetId": 41855,
+      "displayId": "FD-13",
+      "name": "D365",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 41856,
+          "displayId": "FD-14",
+          "name": "CE",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 41857,
+              "displayId": "FD-15",
+              "name": "Subflows",
+              "kind": "folder",
+              "children": [
+                {
+                  "assetId": 41860,
+                  "displayId": "TC-16",
+                  "name": "SUB-Click Sales hub",
+                  "kind": "test-case",
+                  "repoPath": "D365/CE/Subflows/TC-16-SUB-Click-Sales-hub.spec.ts"
+                },
+                {
+                  "assetId": 41858,
+                  "displayId": "TC-14",
+                  "name": "SUB-Login to CE",
+                  "kind": "test-case",
+                  "repoPath": "D365/CE/Subflows/TC-14-SUB-Login-to-CE.spec.ts"
+                },
+                {
+                  "assetId": 41859,
+                  "displayId": "TC-15",
+                  "name": "SUB-Logout from CE",
+                  "kind": "test-case",
+                  "repoPath": "D365/CE/Subflows/TC-15-SUB-Logout-from-CE.spec.ts"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetId": 40102,
+      "displayId": "FD-6",
+      "name": "ServiceNow",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 40115,
+          "displayId": "FD-10",
+          "name": "Commons",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 40117,
+              "displayId": "TC-6",
+              "name": "AddRequestedItem",
+              "kind": "test-case",
+              "repoPath": "ServiceNow/Commons/TC-6-AddRequestedItem.spec.ts"
+            },
+            {
+              "assetId": 40116,
+              "displayId": "TC-5",
+              "name": "ClickDeleteConfirmationButton",
+              "kind": "test-case",
+              "repoPath": "ServiceNow/Commons/TC-5-ClickDeleteConfirmationButton.spec.ts"
+            }
+          ]
+        },
+        {
+          "assetId": 40103,
+          "displayId": "FD-7",
+          "name": "Helpers",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 40113,
+              "displayId": "TS-5",
+              "name": "AddProductToCart",
+              "kind": "typescript",
+              "repoPath": "ServiceNow/Helpers/TS-5-AddProductToCart.ts"
+            },
+            {
+              "assetId": 40120,
+              "displayId": "TS-7",
+              "name": "commonActionsHelper",
+              "kind": "typescript",
+              "repoPath": "ServiceNow/Helpers/TS-7-commonActionsHelper.ts"
+            },
+            {
+              "assetId": 40119,
+              "displayId": "TS-6",
+              "name": "FilterHelper",
+              "kind": "typescript",
+              "repoPath": "ServiceNow/Helpers/TS-6-FilterHelper.ts"
+            },
+            {
+              "assetId": 40104,
+              "displayId": "TS-1",
+              "name": "filterNavMenuSearch",
+              "kind": "typescript",
+              "repoPath": "ServiceNow/Helpers/TS-1-filterNavMenuSearch.ts"
+            },
+            {
+              "assetId": 40112,
+              "displayId": "TS-4",
+              "name": "HeadingTextHelper",
+              "kind": "typescript",
+              "repoPath": "ServiceNow/Helpers/TS-4-HeadingTextHelper.ts"
+            },
+            {
+              "assetId": 40105,
+              "displayId": "TS-2",
+              "name": "selectDropDownHelper",
+              "kind": "typescript",
+              "repoPath": "ServiceNow/Helpers/TS-2-selectDropDownHelper.ts"
+            }
+          ]
+        },
+        {
+          "assetId": 40106,
+          "displayId": "FD-8",
+          "name": "Pages",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 40107,
+              "displayId": "TS-3",
+              "name": "businessapplication.locators",
+              "kind": "typescript",
+              "repoPath": "ServiceNow/Pages/TS-3-businessapplication.locators.ts"
+            }
+          ]
+        },
+        {
+          "assetId": 40108,
+          "displayId": "FD-9",
+          "name": "ServiceNow_LoginLogout",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 40109,
+              "displayId": "TC-1",
+              "name": "ServiceNow_LoginToServiceNow",
+              "kind": "test-case",
+              "repoPath": "ServiceNow/ServiceNow_LoginLogout/TC-1-ServiceNow_LoginToServiceNow.spec.ts"
+            },
+            {
+              "assetId": 40110,
+              "displayId": "TC-2",
+              "name": "ServiceNow_LogOut",
+              "kind": "test-case",
+              "repoPath": "ServiceNow/ServiceNow_LoginLogout/TC-2-ServiceNow_LogOut.spec.ts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetId": 40097,
+      "displayId": "FD-1",
+      "name": "TC-122 - [C46727]_ServiceNow_CreateBusinessApplication (1)",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 40111,
+          "displayId": "TC-3",
+          "name": "[C46727]_ServiceNow_CreateBusinessApplication",
+          "kind": "test-case",
+          "repoPath": "TC-122 - [C46727]_ServiceNow_CreateBusinessApplication (1)/TC-3-[C46727]_ServiceNow_CreateBusinessApplication.spec.ts"
+        }
+      ]
+    },
+    {
+      "assetId": 40099,
+      "displayId": "FD-3",
+      "name": "TC-141 - [C46729]_ServiceNow_CleanAddedRequestAndIncident (1)",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 40118,
+          "displayId": "TC-7",
+          "name": "[C46729]_ServiceNow_CleanAddedRequestAndIncident",
+          "kind": "test-case",
+          "repoPath": "TC-141 - [C46729]_ServiceNow_CleanAddedRequestAndIncident (1)/TC-7-[C46729]_ServiceNow_CleanAddedRequestAndIncident.spec.ts"
+        }
+      ]
+    },
+    {
+      "assetId": 40101,
+      "displayId": "FD-5",
+      "name": "TC-4 - [C46717]_ServiceNow_ServiceHelpDocument-Blocked",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 40122,
+          "displayId": "TC-9",
+          "name": "[C46717]_ServiceNow_ServiceHelpDocument-Blocked",
+          "kind": "test-case",
+          "repoPath": "TC-4 - [C46717]_ServiceNow_ServiceHelpDocument-Blocked/TC-9-[C46717]_ServiceNow_ServiceHelpDocument-Blocked.spec.ts"
+        }
+      ]
+    },
+    {
+      "assetId": 40098,
+      "displayId": "FD-2",
+      "name": "TC-89 - [C46714]_ServiceNow_OrderListedSoftware (2)",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 40114,
+          "displayId": "TC-4",
+          "name": "[C46714]_ServiceNow_OrderListedSoftware",
+          "kind": "test-case",
+          "repoPath": "TC-89 - [C46714]_ServiceNow_OrderListedSoftware (2)/TC-4-[C46714]_ServiceNow_OrderListedSoftware.spec.ts"
+        }
+      ]
+    },
+    {
+      "assetId": 40100,
+      "displayId": "FD-4",
+      "name": "TC-97 - [C46728]_ServiceNow_ActivateDeactivateOrderState (1)",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 40121,
+          "displayId": "TC-8",
+          "name": "[C46728]_ServiceNow_ActivateDeactivateOrderState",
+          "kind": "test-case",
+          "repoPath": "TC-97 - [C46728]_ServiceNow_ActivateDeactivateOrderState (1)/TC-8-[C46728]_ServiceNow_ActivateDeactivateOrderState.spec.ts"
+        }
+      ]
+    },
+    {
+      "assetId": 40128,
+      "displayId": "TC-10",
+      "name": "[C176036]:Login_Logout_Functionality",
+      "kind": "test-case",
+      "repoPath": "TC-10-[C176036]-Login_Logout_Functionality.spec.ts"
+    },
+    {
+      "assetId": 41854,
+      "displayId": "TC-13",
+      "name": "d365_prodtc",
+      "kind": "test-case",
+      "repoPath": "TC-13-d365_prodtc.spec.ts"
     }
   ],
   "files": [
+    {
+      "assetId": 46558,
+      "assetKind": "test-case",
+      "displayId": "TC-17",
+      "name": "Open and close account panel without losing catalog or cart state",
+      "repoPath": "08102026/Account Access and Registration/TC-17-Open-and-close-account-panel-without-losing-catalog-or-cart-state.spec.ts",
+      "parentAssetId": 46557
+    },
+    {
+      "assetId": 46559,
+      "assetKind": "test-case",
+      "displayId": "TC-18",
+      "name": "Reject invalid credentials and handle duplicate registration email",
+      "repoPath": "08102026/Account Access and Registration/TC-18-Reject-invalid-credentials-and-handle-duplicate-registration-email.spec.ts",
+      "parentAssetId": 46557
+    },
+    {
+      "assetId": 46560,
+      "assetKind": "test-case",
+      "displayId": "TC-19",
+      "name": "Sign in with each available demo identity and preserve session access",
+      "repoPath": "08102026/Account Access and Registration/TC-19-Sign-in-with-each-available-demo-identity-and-preserve-session-access.spec.ts",
+      "parentAssetId": 46557
+    },
+    {
+      "assetId": 46561,
+      "assetKind": "test-case",
+      "displayId": "TC-20",
+      "name": "Switch between sign-in and registration modes",
+      "repoPath": "08102026/Account Access and Registration/TC-20-Switch-between-sign-in-and-registration-modes.spec.ts",
+      "parentAssetId": 46557
+    },
+    {
+      "assetId": 46562,
+      "assetKind": "test-case",
+      "displayId": "TC-21",
+      "name": "Validate required fields for sign-in and registration",
+      "repoPath": "08102026/Account Access and Registration/TC-21-Validate-required-fields-for-sign-in-and-registration.spec.ts",
+      "parentAssetId": 46557
+    },
+    {
+      "assetId": 46564,
+      "assetKind": "test-case",
+      "displayId": "TC-22",
+      "name": "Display accurate order summary on address stage",
+      "repoPath": "08102026/Checkout Address and Validation/TC-22-Display-accurate-order-summary-on-address-stage.spec.ts",
+      "parentAssetId": 46563
+    },
+    {
+      "assetId": 46565,
+      "assetKind": "test-case",
+      "displayId": "TC-23",
+      "name": "Reject invalid email at checkout address stage",
+      "repoPath": "08102026/Checkout Address and Validation/TC-23-Reject-invalid-email-at-checkout-address-stage.spec.ts",
+      "parentAssetId": 46563
+    },
+    {
+      "assetId": 46566,
+      "assetKind": "test-case",
+      "displayId": "TC-24",
+      "name": "Reject invalid ZIP code at checkout address stage",
+      "repoPath": "08102026/Checkout Address and Validation/TC-24-Reject-invalid-ZIP-code-at-checkout-address-stage.spec.ts",
+      "parentAssetId": 46563
+    },
+    {
+      "assetId": 46567,
+      "assetKind": "test-case",
+      "displayId": "TC-25",
+      "name": "Show required-field errors for empty checkout address",
+      "repoPath": "08102026/Checkout Address and Validation/TC-25-Show-required-field-errors-for-empty-checkout-address.spec.ts",
+      "parentAssetId": 46563
+    },
+    {
+      "assetId": 46568,
+      "assetKind": "test-case",
+      "displayId": "TC-26",
+      "name": "Submit valid guest delivery address",
+      "repoPath": "08102026/Checkout Address and Validation/TC-26-Submit-valid-guest-delivery-address.spec.ts",
+      "parentAssetId": 46563
+    },
+    {
+      "assetId": 46570,
+      "assetKind": "test-case",
+      "displayId": "TC-27",
+      "name": "Default demo card and delivery date persist through checkout",
+      "repoPath": "08102026/Checkout Payment and Delivery/TC-27-Default-demo-card-and-delivery-date-persist-through-checkout.spec.ts",
+      "parentAssetId": 46569
+    },
+    {
+      "assetId": 46571,
+      "assetKind": "test-case",
+      "displayId": "TC-28",
+      "name": "Incomplete delivery information blocks progression to payment",
+      "repoPath": "08102026/Checkout Payment and Delivery/TC-28-Incomplete-delivery-information-blocks-progression-to-payment.spec.ts",
+      "parentAssetId": 46569
+    },
+    {
+      "assetId": 46572,
+      "assetKind": "test-case",
+      "displayId": "TC-29",
+      "name": "PayPal demo choice remains frontend-only through order confirmation",
+      "repoPath": "08102026/Checkout Payment and Delivery/TC-29-PayPal-demo-choice-remains-frontend-only-through-order-confirmation.spec.ts",
+      "parentAssetId": 46569
+    },
+    {
+      "assetId": 46574,
+      "assetKind": "test-case",
+      "displayId": "TC-30",
+      "name": "Checkout blocks review and placement for invalid or missing address data",
+      "repoPath": "08102026/Checkout Review and Simulated Order Placement/TC-30-Checkout-blocks-review-and-placement-for-invalid-or-missing-address-data.spec.ts",
+      "parentAssetId": 46573
+    },
+    {
+      "assetId": 46575,
+      "assetKind": "test-case",
+      "displayId": "TC-31",
+      "name": "Place order creates simulated confirmation with an order reference",
+      "repoPath": "08102026/Checkout Review and Simulated Order Placement/TC-31-Place-order-creates-simulated-confirmation-with-an-order-reference.spec.ts",
+      "parentAssetId": 46573
+    },
+    {
+      "assetId": 46576,
+      "assetKind": "test-case",
+      "displayId": "TC-32",
+      "name": "Review applies free shipping at the $50 threshold",
+      "repoPath": "08102026/Checkout Review and Simulated Order Placement/TC-32-Review-applies-free-shipping-at-the-$50-threshold.spec.ts",
+      "parentAssetId": 46573
+    },
+    {
+      "assetId": 46577,
+      "assetKind": "test-case",
+      "displayId": "TC-33",
+      "name": "Review shows valid delivery, payment, line items, and under-threshold totals",
+      "repoPath": "08102026/Checkout Review and Simulated Order Placement/TC-33-Review-shows-valid-delivery,-payment,-line-items,-and-under-threshold-totals.spec.ts",
+      "parentAssetId": 46573
+    },
+    {
+      "assetId": 46578,
+      "assetKind": "test-case",
+      "displayId": "TC-34",
+      "name": "Review totals remain consistent with cart line items and quantities",
+      "repoPath": "08102026/Checkout Review and Simulated Order Placement/TC-34-Review-totals-remain-consistent-with-cart-line-items-and-quantities.spec.ts",
+      "parentAssetId": 46573
+    },
+    {
+      "assetId": 46579,
+      "assetKind": "test-case",
+      "displayId": "TC-35",
+      "name": "Selected payment method and delivery date persist into review",
+      "repoPath": "08102026/Checkout Review and Simulated Order Placement/TC-35-Selected-payment-method-and-delivery-date-persist-into-review.spec.ts",
+      "parentAssetId": 46573
+    },
+    {
+      "assetId": 46581,
+      "assetKind": "test-case",
+      "displayId": "TC-36",
+      "name": "Navigate primary catalog sections and view storefront benefits",
+      "repoPath": "08102026/Global Navigation and Storefront Shell/TC-36-Navigate-primary-catalog-sections-and-view-storefront-benefits.spec.ts",
+      "parentAssetId": 46580
+    },
+    {
+      "assetId": 46582,
+      "assetKind": "test-case",
+      "displayId": "TC-37",
+      "name": "Open and close cart and account panels without losing storefront state",
+      "repoPath": "08102026/Global Navigation and Storefront Shell/TC-37-Open-and-close-cart-and-account-panels-without-losing-storefront-state.spec.ts",
+      "parentAssetId": 46580
+    },
+    {
+      "assetId": 46583,
+      "assetKind": "test-case",
+      "displayId": "TC-38",
+      "name": "Search for a visible product from the storefront header",
+      "repoPath": "08102026/Global Navigation and Storefront Shell/TC-38-Search-for-a-visible-product-from-the-storefront-header.spec.ts",
+      "parentAssetId": 46580
+    },
+    {
+      "assetId": 46584,
+      "assetKind": "test-case",
+      "displayId": "TC-39",
+      "name": "Show the no-match state for an unmatched header search",
+      "repoPath": "08102026/Global Navigation and Storefront Shell/TC-39-Show-the-no-match-state-for-an-unmatched-header-search.spec.ts",
+      "parentAssetId": 46580
+    },
+    {
+      "assetId": 46585,
+      "assetKind": "test-case",
+      "displayId": "TC-40",
+      "name": "Use footer support links and recover with Back navigation",
+      "repoPath": "08102026/Global Navigation and Storefront Shell/TC-40-Use-footer-support-links-and-recover-with-Back-navigation.spec.ts",
+      "parentAssetId": 46580
+    },
+    {
+      "assetId": 46587,
+      "assetKind": "test-case",
+      "displayId": "TC-41",
+      "name": "Display the no-match search state",
+      "repoPath": "08102026/Product Catalog Discovery/TC-41-Display-the-no-match-search-state.spec.ts",
+      "parentAssetId": 46586
+    },
+    {
+      "assetId": 46588,
+      "assetKind": "test-case",
+      "displayId": "TC-42",
+      "name": "Filter products by pet category",
+      "repoPath": "08102026/Product Catalog Discovery/TC-42-Filter-products-by-pet-category.spec.ts",
+      "parentAssetId": 46586
+    },
+    {
+      "assetId": 46589,
+      "assetKind": "test-case",
+      "displayId": "TC-43",
+      "name": "Load the default product catalog",
+      "repoPath": "08102026/Product Catalog Discovery/TC-43-Load-the-default-product-catalog.spec.ts",
+      "parentAssetId": 46586
+    },
+    {
+      "assetId": 46590,
+      "assetKind": "test-case",
+      "displayId": "TC-44",
+      "name": "Navigate to New and Deals catalog sections",
+      "repoPath": "08102026/Product Catalog Discovery/TC-44-Navigate-to-New-and-Deals-catalog-sections.spec.ts",
+      "parentAssetId": 46586
+    },
+    {
+      "assetId": 46591,
+      "assetKind": "test-case",
+      "displayId": "TC-45",
+      "name": "Open and dismiss product details",
+      "repoPath": "08102026/Product Catalog Discovery/TC-45-Open-and-dismiss-product-details.spec.ts",
+      "parentAssetId": 46586
+    },
+    {
+      "assetId": 46592,
+      "assetKind": "test-case",
+      "displayId": "TC-46",
+      "name": "Search for a matching product",
+      "repoPath": "08102026/Product Catalog Discovery/TC-46-Search-for-a-matching-product.spec.ts",
+      "parentAssetId": 46586
+    },
+    {
+      "assetId": 46593,
+      "assetKind": "test-case",
+      "displayId": "TC-47",
+      "name": "Sort products by available price options",
+      "repoPath": "08102026/Product Catalog Discovery/TC-47-Sort-products-by-available-price-options.spec.ts",
+      "parentAssetId": 46586
+    },
+    {
+      "assetId": 46594,
+      "assetKind": "test-case",
+      "displayId": "TC-48",
+      "name": "Verify product card content",
+      "repoPath": "08102026/Product Catalog Discovery/TC-48-Verify-product-card-content.spec.ts",
+      "parentAssetId": 46586
+    },
     {
       "assetId": 46597,
       "assetKind": "test-case",
@@ -44,6 +966,310 @@
       "name": "Add one product from the details dialog",
       "repoPath": "08102026/Product Details and Cart Addition/TC-50-Add-one-product-from-the-details-dialog.spec.ts",
       "parentAssetId": 46595
+    },
+    {
+      "assetId": 46598,
+      "assetKind": "test-case",
+      "displayId": "TC-51",
+      "name": "Open and dismiss product details without changing the cart",
+      "repoPath": "08102026/Product Details and Cart Addition/TC-51-Open-and-dismiss-product-details-without-changing-the-cart.spec.ts",
+      "parentAssetId": 46595
+    },
+    {
+      "assetId": 46599,
+      "assetKind": "test-case",
+      "displayId": "TC-52",
+      "name": "Preserve existing cart contents when dismissing product details",
+      "repoPath": "08102026/Product Details and Cart Addition/TC-52-Preserve-existing-cart-contents-when-dismissing-product-details.spec.ts",
+      "parentAssetId": 46595
+    },
+    {
+      "assetId": 46600,
+      "assetKind": "test-case",
+      "displayId": "TC-53",
+      "name": "Prevent product details and cart addition for a no-match search",
+      "repoPath": "08102026/Product Details and Cart Addition/TC-53-Prevent-product-details-and-cart-addition-for-a-no-match-search.spec.ts",
+      "parentAssetId": 46595
+    },
+    {
+      "assetId": 46602,
+      "assetKind": "test-case",
+      "displayId": "TC-54",
+      "name": "Confirm saved-address behavior matches the FAQ",
+      "repoPath": "08102026/Saved Address Management/TC-54-Confirm-saved-address-behavior-matches-the-FAQ.spec.ts",
+      "parentAssetId": 46601
+    },
+    {
+      "assetId": 46603,
+      "assetKind": "test-case",
+      "displayId": "TC-55",
+      "name": "Edit saved address and retain changes in the session",
+      "repoPath": "08102026/Saved Address Management/TC-55-Edit-saved-address-and-retain-changes-in-the-session.spec.ts",
+      "parentAssetId": 46601
+    },
+    {
+      "assetId": 46604,
+      "assetKind": "test-case",
+      "displayId": "TC-56",
+      "name": "Prevent unauthenticated access to saved address editing",
+      "repoPath": "08102026/Saved Address Management/TC-56-Prevent-unauthenticated-access-to-saved-address-editing.spec.ts",
+      "parentAssetId": 46601
+    },
+    {
+      "assetId": 46606,
+      "assetKind": "test-case",
+      "displayId": "TC-57",
+      "name": "Apply free-shipping threshold messaging and charges",
+      "repoPath": "08102026/Shopping Cart Management/TC-57-Apply-free-shipping-threshold-messaging-and-charges.spec.ts",
+      "parentAssetId": 46605
+    },
+    {
+      "assetId": 46607,
+      "assetKind": "test-case",
+      "displayId": "TC-58",
+      "name": "Enable guest checkout for a non-empty cart",
+      "repoPath": "08102026/Shopping Cart Management/TC-58-Enable-guest-checkout-for-a-non-empty-cart.spec.ts",
+      "parentAssetId": 46605
+    },
+    {
+      "assetId": 46608,
+      "assetKind": "test-case",
+      "displayId": "TC-59",
+      "name": "Handle an empty cart and disable checkout",
+      "repoPath": "08102026/Shopping Cart Management/TC-59-Handle-an-empty-cart-and-disable-checkout.spec.ts",
+      "parentAssetId": 46605
+    },
+    {
+      "assetId": 46609,
+      "assetKind": "test-case",
+      "displayId": "TC-60",
+      "name": "List cart items without duplicate product lines",
+      "repoPath": "08102026/Shopping Cart Management/TC-60-List-cart-items-without-duplicate-product-lines.spec.ts",
+      "parentAssetId": 46605
+    },
+    {
+      "assetId": 46610,
+      "assetKind": "test-case",
+      "displayId": "TC-61",
+      "name": "Persist cart contents across storefront, support, and checkout views",
+      "repoPath": "08102026/Shopping Cart Management/TC-61-Persist-cart-contents-across-storefront,-support,-and-checkout-views.spec.ts",
+      "parentAssetId": 46605
+    },
+    {
+      "assetId": 46611,
+      "assetKind": "test-case",
+      "displayId": "TC-62",
+      "name": "Preserve cart state when closing product details",
+      "repoPath": "08102026/Shopping Cart Management/TC-62-Preserve-cart-state-when-closing-product-details.spec.ts",
+      "parentAssetId": 46605
+    },
+    {
+      "assetId": 46612,
+      "assetKind": "test-case",
+      "displayId": "TC-63",
+      "name": "Update quantity controls and cart totals",
+      "repoPath": "08102026/Shopping Cart Management/TC-63-Update-quantity-controls-and-cart-totals.spec.ts",
+      "parentAssetId": 46605
+    },
+    {
+      "assetId": 46614,
+      "assetKind": "test-case",
+      "displayId": "TC-64",
+      "name": "Display details and return eligibility for a valid example order",
+      "repoPath": "08102026/Support FAQ and Returns Lookup/TC-64-Display-details-and-return-eligibility-for-a-valid-example-order.spec.ts",
+      "parentAssetId": 46613
+    },
+    {
+      "assetId": 46615,
+      "assetKind": "test-case",
+      "displayId": "TC-65",
+      "name": "Mark an order outside the 30-day window as ineligible",
+      "repoPath": "08102026/Support FAQ and Returns Lookup/TC-65-Mark-an-order-outside-the-30-day-window-as-ineligible.spec.ts",
+      "parentAssetId": 46613
+    },
+    {
+      "assetId": 46616,
+      "assetKind": "test-case",
+      "displayId": "TC-66",
+      "name": "Reject blank, malformed, and unknown return order numbers",
+      "repoPath": "08102026/Support FAQ and Returns Lookup/TC-66-Reject-blank,-malformed,-and-unknown-return-order-numbers.spec.ts",
+      "parentAssetId": 46613
+    },
+    {
+      "assetId": 46617,
+      "assetKind": "test-case",
+      "displayId": "TC-67",
+      "name": "Verify FAQ delivery, shipping, address, and payment guidance",
+      "repoPath": "08102026/Support FAQ and Returns Lookup/TC-67-Verify-FAQ-delivery,-shipping,-address,-and-payment-guidance.spec.ts",
+      "parentAssetId": 46613
+    },
+    {
+      "assetId": 41858,
+      "assetKind": "test-case",
+      "displayId": "TC-14",
+      "name": "SUB-Login to CE",
+      "repoPath": "D365/CE/Subflows/TC-14-SUB-Login-to-CE.spec.ts",
+      "parentAssetId": 41857
+    },
+    {
+      "assetId": 41859,
+      "assetKind": "test-case",
+      "displayId": "TC-15",
+      "name": "SUB-Logout from CE",
+      "repoPath": "D365/CE/Subflows/TC-15-SUB-Logout-from-CE.spec.ts",
+      "parentAssetId": 41857
+    },
+    {
+      "assetId": 41860,
+      "assetKind": "test-case",
+      "displayId": "TC-16",
+      "name": "SUB-Click Sales hub",
+      "repoPath": "D365/CE/Subflows/TC-16-SUB-Click-Sales-hub.spec.ts",
+      "parentAssetId": 41857
+    },
+    {
+      "assetId": 40116,
+      "assetKind": "test-case",
+      "displayId": "TC-5",
+      "name": "ClickDeleteConfirmationButton",
+      "repoPath": "ServiceNow/Commons/TC-5-ClickDeleteConfirmationButton.spec.ts",
+      "parentAssetId": 40115
+    },
+    {
+      "assetId": 40117,
+      "assetKind": "test-case",
+      "displayId": "TC-6",
+      "name": "AddRequestedItem",
+      "repoPath": "ServiceNow/Commons/TC-6-AddRequestedItem.spec.ts",
+      "parentAssetId": 40115
+    },
+    {
+      "assetId": 40104,
+      "assetKind": "typescript",
+      "displayId": "TS-1",
+      "name": "filterNavMenuSearch",
+      "repoPath": "ServiceNow/Helpers/TS-1-filterNavMenuSearch.ts",
+      "parentAssetId": 40103
+    },
+    {
+      "assetId": 40105,
+      "assetKind": "typescript",
+      "displayId": "TS-2",
+      "name": "selectDropDownHelper",
+      "repoPath": "ServiceNow/Helpers/TS-2-selectDropDownHelper.ts",
+      "parentAssetId": 40103
+    },
+    {
+      "assetId": 40112,
+      "assetKind": "typescript",
+      "displayId": "TS-4",
+      "name": "HeadingTextHelper",
+      "repoPath": "ServiceNow/Helpers/TS-4-HeadingTextHelper.ts",
+      "parentAssetId": 40103
+    },
+    {
+      "assetId": 40113,
+      "assetKind": "typescript",
+      "displayId": "TS-5",
+      "name": "AddProductToCart",
+      "repoPath": "ServiceNow/Helpers/TS-5-AddProductToCart.ts",
+      "parentAssetId": 40103
+    },
+    {
+      "assetId": 40119,
+      "assetKind": "typescript",
+      "displayId": "TS-6",
+      "name": "FilterHelper",
+      "repoPath": "ServiceNow/Helpers/TS-6-FilterHelper.ts",
+      "parentAssetId": 40103
+    },
+    {
+      "assetId": 40120,
+      "assetKind": "typescript",
+      "displayId": "TS-7",
+      "name": "commonActionsHelper",
+      "repoPath": "ServiceNow/Helpers/TS-7-commonActionsHelper.ts",
+      "parentAssetId": 40103
+    },
+    {
+      "assetId": 40107,
+      "assetKind": "typescript",
+      "displayId": "TS-3",
+      "name": "businessapplication.locators",
+      "repoPath": "ServiceNow/Pages/TS-3-businessapplication.locators.ts",
+      "parentAssetId": 40106
+    },
+    {
+      "assetId": 40109,
+      "assetKind": "test-case",
+      "displayId": "TC-1",
+      "name": "ServiceNow_LoginToServiceNow",
+      "repoPath": "ServiceNow/ServiceNow_LoginLogout/TC-1-ServiceNow_LoginToServiceNow.spec.ts",
+      "parentAssetId": 40108
+    },
+    {
+      "assetId": 40110,
+      "assetKind": "test-case",
+      "displayId": "TC-2",
+      "name": "ServiceNow_LogOut",
+      "repoPath": "ServiceNow/ServiceNow_LoginLogout/TC-2-ServiceNow_LogOut.spec.ts",
+      "parentAssetId": 40108
+    },
+    {
+      "assetId": 40128,
+      "assetKind": "test-case",
+      "displayId": "TC-10",
+      "name": "[C176036]:Login_Logout_Functionality",
+      "repoPath": "TC-10-[C176036]-Login_Logout_Functionality.spec.ts",
+      "parentAssetId": 40088
+    },
+    {
+      "assetId": 40111,
+      "assetKind": "test-case",
+      "displayId": "TC-3",
+      "name": "[C46727]_ServiceNow_CreateBusinessApplication",
+      "repoPath": "TC-122 - [C46727]_ServiceNow_CreateBusinessApplication (1)/TC-3-[C46727]_ServiceNow_CreateBusinessApplication.spec.ts",
+      "parentAssetId": 40097
+    },
+    {
+      "assetId": 41854,
+      "assetKind": "test-case",
+      "displayId": "TC-13",
+      "name": "d365_prodtc",
+      "repoPath": "TC-13-d365_prodtc.spec.ts",
+      "parentAssetId": 40088
+    },
+    {
+      "assetId": 40118,
+      "assetKind": "test-case",
+      "displayId": "TC-7",
+      "name": "[C46729]_ServiceNow_CleanAddedRequestAndIncident",
+      "repoPath": "TC-141 - [C46729]_ServiceNow_CleanAddedRequestAndIncident (1)/TC-7-[C46729]_ServiceNow_CleanAddedRequestAndIncident.spec.ts",
+      "parentAssetId": 40099
+    },
+    {
+      "assetId": 40122,
+      "assetKind": "test-case",
+      "displayId": "TC-9",
+      "name": "[C46717]_ServiceNow_ServiceHelpDocument-Blocked",
+      "repoPath": "TC-4 - [C46717]_ServiceNow_ServiceHelpDocument-Blocked/TC-9-[C46717]_ServiceNow_ServiceHelpDocument-Blocked.spec.ts",
+      "parentAssetId": 40101
+    },
+    {
+      "assetId": 40114,
+      "assetKind": "test-case",
+      "displayId": "TC-4",
+      "name": "[C46714]_ServiceNow_OrderListedSoftware",
+      "repoPath": "TC-89 - [C46714]_ServiceNow_OrderListedSoftware (2)/TC-4-[C46714]_ServiceNow_OrderListedSoftware.spec.ts",
+      "parentAssetId": 40098
+    },
+    {
+      "assetId": 40121,
+      "assetKind": "test-case",
+      "displayId": "TC-8",
+      "name": "[C46728]_ServiceNow_ActivateDeactivateOrderState",
+      "repoPath": "TC-97 - [C46728]_ServiceNow_ActivateDeactivateOrderState (1)/TC-8-[C46728]_ServiceNow_ActivateDeactivateOrderState.spec.ts",
+      "parentAssetId": 40100
     }
   ]
 }
