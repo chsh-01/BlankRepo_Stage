@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-15T09:44:49.708Z",
+  "repo": {
+    "connectorId": 547,
+    "repoSlug": "chsh-01/BlankRepo_Stage",
+    "baseBranch": "main"
+  },
+  "team": {
+    "assetId": 40088,
+    "displayId": "TM-1",
+    "name": "stagingvalidations"
+  },
+  "tree": [
+    {
+      "assetId": 46553,
+      "displayId": "FD-16",
+      "name": "08102026",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 46595,
+          "displayId": "FD-23",
+          "name": "Product Details and Cart Addition",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 46597,
+              "displayId": "TC-50",
+              "name": "Add one product from the details dialog",
+              "kind": "test-case",
+              "repoPath": "08102026/Product Details and Cart Addition/TC-50-Add-one-product-from-the-details-dialog.spec.ts"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "assetId": 46597,
+      "assetKind": "test-case",
+      "displayId": "TC-50",
+      "name": "Add one product from the details dialog",
+      "repoPath": "08102026/Product Details and Cart Addition/TC-50-Add-one-product-from-the-details-dialog.spec.ts",
+      "parentAssetId": 46595
+    }
+  ]
+}
